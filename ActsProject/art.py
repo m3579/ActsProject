@@ -22,6 +22,7 @@ class Terminal():
         lineCount = 0
 
         for line in lines:
+
             length = len(line)
 
             if length > self.maxColumns:
@@ -29,18 +30,20 @@ class Terminal():
             elif length < self.maxColumns:
                 while len(line) < self.maxColumns:
                     line += " "
-
-            print(line + "\n")
-
+                    
             lineCount += 1
 
-            self.reset(lineCount, resetdelay)
+            print(line)
+
+        self.reset(lineCount, resetdelay)
 
     def reset(self, lineCount, delay):
         sleep(delay)
 
         for i in range(lineCount):
-            sys.stdout.write("\033[1A\r")
+            sys.stdout.write("\033[1A")
+
+        sys.stdout.write("\r")
 
     def error(self, line, message):
         print("Error (", self.frame, " : ", line, "): ", message, sep="")
