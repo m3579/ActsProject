@@ -1,37 +1,30 @@
-from art import Terminal
+import jesus_ascends
+import sys
 
-terminal = Terminal()
+argc = len(sys.argv)
 
-terminal.resetdelay = 1
+if argc == 1:
+    print(
+        """
+        
+        Welcome to Mihir Kasmalkar's Acts Project!
 
-terminal.draw(
-    """
+        This program contains animations in the terminal for various stories
+        in the Book of Acts.
 
-    *
+        Here is a list of all of the stories:
 
-    """
+            Jesus Ascends
+
+        """
     )
 
-terminal.draw(
-    """
+elif argc == 2:
 
-     *
+    story = sys.argv[1]
 
-    """
-    )
+    if story == "Jesus Ascends":
+        jesus_ascends.go()
 
-terminal.draw(
-    """
-
-      *
-
-    """
-    )
-
-terminal.draw(
-    """
-
-       *
-
-    """
-    )
+    else:
+        print("I can't recognize this story.")
