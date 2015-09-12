@@ -11,6 +11,8 @@ class Terminal():
 
         self.frame = 0
 
+        self.linecount = 0
+
         self.resetdelay = 0.02
 
     def draw(self, text, resetdelay=None):
@@ -19,31 +21,37 @@ class Terminal():
 
         lines = text.split("\n")
 
-        lineCount = 0
+        self.lineCount = 0
 
         for line in lines:
 
             length = len(line)
 
             if length > self.maxColumns:
-                error(lineCount + 1, "Too many columns in this animation")
+                error(self.lineCount + 1, "Too many columns in this animation")
             elif length < self.maxColumns:
                 while len(line) < self.maxColumns:
                     line += " "
                     
-            lineCount += 1
+            self.lineCount += 1
 
             print(line)
 
-        self.reset(lineCount, resetdelay)
+        self.reset(resetdelay, self.lineCount)
 
-    def reset(self, lineCount, delay):
+    def reset(self, delay, linecount):
         sleep(delay)
 
-        for i in range(lineCount):
+        for i in range(linecount):
             sys.stdout.write("\033[1A")
 
         sys.stdout.write("\r")
+
+    def finish(self, linecount):
+        
+        for i in range(linecount):
+            print(" " * self.maxColumns)
+
 
     def error(self, line, message):
         print("Error (", self.frame, " : ", line, "): ", message, sep="")

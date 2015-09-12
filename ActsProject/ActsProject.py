@@ -1,30 +1,31 @@
-import jesus_ascends
+﻿import jesus_ascends
 import sys
 
-argc = len(sys.argv)
+print()
+command = input("story> ").lower()
 
-if argc == 1:
-    print(
-        """
+while command != "":
+   
+    if command == "help":
+
+        print(
+            """
         
-        Welcome to Mihir Kasmalkar's Acts Project!
+Welcome to Mihir Kasmalkar's Acts Project!
 
-        This program contains animations in the terminal for various stories
-        in the Book of Acts.
+This program contains animations in the terminal for various stories
+in the Book of Acts.
 
-        Here is a list of all of the stories:
+Here is a list of all of the stories:
 
-            Jesus Ascends
+    Jesus Ascends
+            """
+        )
 
-        """
-    )
-
-elif argc == 2:
-
-    story = sys.argv[1]
-
-    if story == "Jesus Ascends":
+    elif command == "jesus ascends":
         jesus_ascends.go()
 
     else:
-        print("I can't recognize this story.")
+        print("I can't recognize this command.")
+
+    command = input("story> ").lower()

@@ -1,4 +1,4 @@
-from art import Terminal
+﻿from art import Terminal
 
 def go():
 
@@ -212,7 +212,29 @@ def go():
 
     t.draw(
         """
-          Oh.
+          Aww...
+         *    *    *    *              *      *
+        ***  ***  ***  ***   *****    ***     *
+         *    *    *    *    *   *     *    * *
+        * *  * *  * *  * *   *   *    * *   * *
+        """,
+        1
+     )
+
+    t.draw(
+        """
+          I mean,
+         *    *    *    *              *      *
+        ***  ***  ***  ***   *****    ***     *
+         *    *    *    *    *   *     *    * *
+        * *  * *  * *  * *   *   *    * *   * *
+        """,
+        0.5
+     )
+
+    t.draw(
+        """
+           Ok.
          *    *    *    *              *      *
         ***  ***  ***  ***   *****    ***     *
          *    *    *    *    *   *     *    * *
@@ -444,7 +466,7 @@ def go():
             *    *    *    *    *           * *
            * *  * *  * *  * *  * *          * *
         """,
-         speech_delay
+         0.5
         )
 
     t.draw(
@@ -493,7 +515,7 @@ def go():
 
     t.draw(
         """
-                              ...why do you stand here
+                              ...Why do you stand here
             *    *    *    *    *        *      *    
            ***  ***  ***  ***  ***      ***    ***  
             *    *    *    *    *        *      * 
@@ -592,7 +614,7 @@ def go():
 
     t.draw(
         """
-               
+                   No, you said He would-     
             *    *    *    *    *    
            ***  ***  ***  ***  ***    
             *    *    *    *    *     
@@ -611,3 +633,5 @@ def go():
         """,
          speech_delay
         )
+
+    t.finish(t.lineCount)
