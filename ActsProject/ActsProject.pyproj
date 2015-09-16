@@ -35,6 +35,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="stories\" />
+    <Folder Include="Videos\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Videos\TinyTake11-09-2015-08-40-29.mp4" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
