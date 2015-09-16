@@ -1,4 +1,5 @@
-﻿import jesus_ascends
+﻿from stories import jesus_ascends
+from stories import holy_spirit_comes
 import sys
 
 print()
@@ -24,6 +25,9 @@ Here is a list of all of the stories:
 
     elif command == "jesus ascends":
         jesus_ascends.go()
+
+    elif command == "the holy spirit comes":
+        holy_spirit_comes.go()
 
     else:
         print("I can't recognize this command.")

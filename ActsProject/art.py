@@ -1,4 +1,4 @@
-from time import sleep
+﻿from time import sleep
 import colorama
 import sys
 
@@ -11,7 +11,7 @@ class Terminal():
 
         self.frame = 0
 
-        self.linecount = 0
+        self.lineCount = 0
 
         self.resetdelay = 0.02
 
