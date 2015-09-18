@@ -1,2 +1,2 @@
 # ActsProject
-My Acts Project for school.
+A project for school.
