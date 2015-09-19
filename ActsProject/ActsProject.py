@@ -1,13 +1,16 @@
 ﻿from stories import jesus_ascends
 from stories import holy_spirit_comes
+from stories import peter_heals_lame_beggar
 import sys
 
-storyList = [jesus_ascends, holy_spirit_comes]
+storyList = [jesus_ascends, holy_spirit_comes, peter_heals_lame_beggar]
 
 
 print()
-command = input("story> ").lower()
+# command = input("story> ").lower()
 
+# DEBUGGING
+command = "Peter Heals a Lame Beggar".lower()
 
 while command != "":
    
@@ -29,7 +32,7 @@ Here is a list of all of the stories:
 
     else:
         story = [story for story in storyList if story.name == command]
-        if story[0] != None:
+        if len(story) > 0:
             story[0].go()
         else:
             print("I cannot recognize this story")
