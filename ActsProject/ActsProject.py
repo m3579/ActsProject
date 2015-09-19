@@ -5,12 +5,12 @@ import sys
 
 storyList = [jesus_ascends, holy_spirit_comes, peter_heals_lame_beggar]
 
-
 print()
-# command = input("story> ").lower()
+command = input("story> ").lower()
 
 # DEBUGGING
-command = "Peter Heals a Lame Beggar".lower()
+# story.go()
+# sys.exit(0)
 
 while command != "":
    

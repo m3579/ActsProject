@@ -390,7 +390,7 @@ def go():
             | *    *       *
             |* *  * *     * *
         """,
-        speech_delay
+        speech_delay - 0.5
     )
 
     t.draw(
@@ -642,11 +642,341 @@ def go():
     t.draw(
         """
                     
-
-        
-
-
-
+            How did you heal him?
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
         """,
-        title_delay
+        speech_delay    
     )
+
+    t.draw(
+        """
+                    
+                           It wasn't through our power!
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+               Yeah, no duh.
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay - 0.5
+    )
+
+    t.draw(
+        """
+                    
+        (Wait, I didn't know what)
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay - 0.5
+    )
+
+    t.draw(
+        """
+                    
+            (Be quiet!)
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                              It's through Jesus's!
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+    
+    t.draw(
+        """
+                    
+                           God is glorifying Him
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                           because you killed Him.
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                           You had acted in ignorance,
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                           but now is your chance to repent.
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                         All of the prophets have spoken
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                           about this day.
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+          So you're just going to let the beggar
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+          run around everywhere?
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                              Why not?
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+                    
+                       It can't possibly be of any consequence!
+              *     *           *     * 
+             ***   ***         ***   ***
+              *     *           *     *
+             * *   * *         * *   * *  
+        """,
+        speech_delay    
+    )
+
+    t.draw(
+        """
+            Prison
+         ------------------
+          |  *|   |   | * |   *
+          | **|   |   |***|  ***    <- Pharisees     
+          |  *|   |   | * |   *
+          | * |   |   |* *|  * *
+        """,
+        label_delay
+    )
+    
+    t.draw(
+        """
+           I *told* you not to let him run around everywhere!
+         ------------------
+          |  *|   |   | * |   *
+          | **|   |   |***|  ***        
+          |  *|   |   | * |   *
+          | * |   |   |* *|  * *
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+           But what did you say?
+         ------------------
+          |  *|   |   | * |   *
+          | **|   |   |***|  ***        
+          |  *|   |   | * |   *
+          | * |   |   |* *|  * *
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+           Go away John.
+         ------------------
+          |  *|   |   | * |   *
+          | **|   |   |***|  ***        
+          |  *|   |   | * |   *
+          | * |   |   |* *|  * *
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+          It wouldn't be of any consequence!
+         ------------------
+          |  *|   |   | * |   *
+          | **|   |   |***|  ***        
+          |  *|   |   | * |   *
+          | * |   |   |* *|  * *
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+          Well, what do you think NOW?
+         ------------------
+          |  *|   |   | * |   *
+          | **|   |   |***|  ***        
+          |  *|   |   | * |   *
+          | * |   |   |* *|  * *
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+       At least some people believed.
+         ------------------
+          |  *|   |   | * |   *
+          | **|   |   |***|  ***        
+          |  *|   |   | * |   *
+          | * |   |   |* *|  * *
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                                                     
+                 The Game of Life                               
+                              
+                       
+            Church Member Count: 5000
+
+                                                 
+    
+                    
+                                     
+                                    
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                                                     
+                 The Game of Life                               
+                              
+                       
+            Church Member Count: 5000
+
+                                                 
+            Your progress for today is:
+            
+                                     
+                                    
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                                                     
+                 The Game of Life                               
+                              
+                       
+            Church Member Count: 5000
+
+                                                 
+            Your progress for today is: Good, but you are in prison.
+            
+                                     
+                                    
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                                                     
+                
+                To be continued...
+            
+
+                                     
+                                    
+        """,
+        speech_delay
+    )
+
+    t.finish(t.lineCount)
