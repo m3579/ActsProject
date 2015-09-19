@@ -41,6 +41,7 @@
     <Folder Include="Videos\" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="TimeCard.rtf" />
     <Content Include="Videos\holy_spirit_comes.mp4" />
     <Content Include="Videos\jesus_ascends.mp4" />
   </ItemGroup>
