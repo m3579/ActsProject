@@ -696,7 +696,7 @@ def go():
               *     *           *     *
              * *   * *         * *   * *  
         """,
-        speech_delay    
+        speech_delay - 0.5  
     )
 
     t.draw(
