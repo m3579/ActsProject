@@ -2,8 +2,12 @@
 from stories import holy_spirit_comes
 import sys
 
+storyList = [jesus_ascends, holy_spirit_comes]
+
+
 print()
 command = input("story> ").lower()
+
 
 while command != "":
    
@@ -23,13 +27,11 @@ Here is a list of all of the stories:
             """
         )
 
-    elif command == "jesus ascends":
-        jesus_ascends.go()
-
-    elif command == "the holy spirit comes":
-        holy_spirit_comes.go()
-
     else:
-        print("I can't recognize this command.")
+        story = [story for story in storyList if story.name == command]
+        if story[0] != None:
+            story[0].go()
+        else:
+            print("I cannot recognize this story")
 
     command = input("story> ").lower()

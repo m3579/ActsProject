@@ -1,5 +1,7 @@
 ﻿from art import Terminal
 
+name = "jesus ascends"
+
 def go():
 
     t = Terminal()
