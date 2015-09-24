@@ -32,6 +32,9 @@
     <Compile Include="stories\peter_heals_lame_beggar.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="stories\peter_john_before_sanhedrin.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="stories\__init__.py">
       <SubType>Code</SubType>
     </Compile>

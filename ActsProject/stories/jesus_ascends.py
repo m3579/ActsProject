@@ -1,6 +1,6 @@
 ﻿from art import Terminal
 
-name = "jesus ascends"
+__name__ = "jesus ascends"
 
 def go():
 
