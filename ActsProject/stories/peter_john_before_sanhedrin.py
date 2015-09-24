@@ -1,4 +1,4 @@
-from art import Terminal
+﻿from art import Terminal
 
 name = "peter and john before the sanhedrin"
 
@@ -495,18 +495,6 @@ def go():
             No one owned anything for themselves
             But no one was needy
      
-        """,
-        title_delay
-    )
-
-    t.draw(
-        """
-            And then they prayed
-            They also shared all of their possessions
-            No one owned anything for themselves
-            But no one was needy
-            Boom
-
         """,
         title_delay
     )

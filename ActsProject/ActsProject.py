@@ -2,15 +2,20 @@
 from stories import holy_spirit_comes
 from stories import peter_heals_lame_beggar
 from stories import peter_john_before_sanhedrin
+from stories import ananias_and_saphira
 import sys
 
-storyList = [jesus_ascends, holy_spirit_comes, peter_heals_lame_beggar, peter_john_before_sanhedrin]
+storyList = [jesus_ascends,
+             holy_spirit_comes,
+             peter_heals_lame_beggar,
+             peter_john_before_sanhedrin,
+             ananias_and_saphira]
 
 print()
 command = input("story> ").lower()
 
 # DEBUGGING
-# <story>.go()
+# story.go()
 # sys.exit(0)
 
 while command != "":

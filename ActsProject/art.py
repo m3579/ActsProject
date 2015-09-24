@@ -28,7 +28,7 @@ class Terminal():
             length = len(line)
 
             if length > self.maxColumns:
-                error(self.lineCount + 1, "Too many columns in this animation")
+                self.error(self.lineCount + 1, "Too many columns in this animation")
             elif length < self.maxColumns:
                 while len(line) < self.maxColumns:
                     line += " "
