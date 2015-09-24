@@ -138,7 +138,7 @@ def go():
          * *    * *            * *   * *
      
         """,
-        speech_delay - 0.5
+        speech_delay - 0.7
     )
 
     t.draw(
@@ -293,7 +293,7 @@ def go():
          * *    * *                  * *
      
         """,
-        speech_delay
+        speech_delay + 0.2
     )
 
     t.draw(
@@ -319,7 +319,7 @@ def go():
          * *    * *                  * *
      
         """,
-        speech_delay - 0.8
+        speech_delay - 0.7
     )
 
     t.draw(
@@ -358,7 +358,7 @@ def go():
          * *    * *                  * *
      
         """,
-        speech_delay
+        speech_delay + 0.5
     )
 
     t.draw(
