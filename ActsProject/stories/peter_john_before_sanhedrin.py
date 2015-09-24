@@ -8,7 +8,7 @@ def go():
 
     title_delay = 2
 
-    label_delay = 1
+    label_delay = 1.5
 
     speech_delay = 1.5
 
@@ -86,7 +86,7 @@ def go():
          * *    * *            * *   * *
      
         """,
-        speech_delay
+        speech_delay + 0.5
     )
 
     t.draw(
@@ -99,7 +99,7 @@ def go():
          * *    * *            * *   * *
      
         """,
-        speech_delay
+        speech_delay + 0.2
     )
 
     t.draw(
@@ -156,7 +156,7 @@ def go():
 
     t.draw(
         """
-                        (Aren't they being tried for an act of kindness?)
+                  (Aren't they being tried for an act of kindness?)
                             
           *      *              *     *
          ***    ***            ***   ***
@@ -164,7 +164,7 @@ def go():
          * *    * *            * *   * *
      
         """,
-        speech_delay
+        speech_delay + 0.5
     )
 
     t.draw(
@@ -215,7 +215,7 @@ def go():
          * *    * *                  * *
      
         """,
-        speech_delay - 1
+        speech_delay - 0.8
     )
 
     t.draw(
@@ -254,7 +254,7 @@ def go():
          * *    * *                  * *
      
         """,
-        speech_delay
+        speech_delay + 1
     )
     
     t.draw(
@@ -267,7 +267,7 @@ def go():
          * *    * *                  * *
      
         """,
-        speech_delay
+        speech_delay + 1
     )
 
     t.draw(
@@ -319,7 +319,7 @@ def go():
          * *    * *                  * *
      
         """,
-        speech_delay - 0.5
+        speech_delay - 0.8
     )
 
     t.draw(
@@ -337,7 +337,7 @@ def go():
 
     t.draw(
         """
-                     Anyway, we have decided.
+                     Anyway, we have made our decision.
                             
           *      *                    *
          ***    ***                  ***

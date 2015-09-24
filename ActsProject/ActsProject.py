@@ -7,11 +7,11 @@ import sys
 storyList = [jesus_ascends, holy_spirit_comes, peter_heals_lame_beggar, peter_john_before_sanhedrin]
 
 print()
-# command = input("story> ").lower()
+command = input("story> ").lower()
 
 # DEBUGGING
-peter_john_before_sanhedrin.go()
-sys.exit(0)
+# <story>.go()
+# sys.exit(0)
 
 while command != "":
    
@@ -32,7 +32,7 @@ Here is a list of all of the stories:
         )
 
     else:
-        story = [story for story in storyList if story.__name__ == command]
+        story = [story for story in storyList if story.name == command]
         if len(story) > 0:
             story[0].go()
         else:

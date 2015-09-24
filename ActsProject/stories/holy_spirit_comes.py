@@ -1,6 +1,6 @@
 ﻿from art import Terminal
 
-__name__ = "the holy spirit comes"
+name = "the holy spirit comes"
 
 def go():
     t = Terminal()

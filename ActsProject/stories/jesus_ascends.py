@@ -1,6 +1,6 @@
 ﻿from art import Terminal
 
-__name__ = "jesus ascends"
+name = "jesus ascends"
 
 def go():
 
@@ -561,7 +561,7 @@ def go():
 
     t.draw(
         """
-                Except opposite
+                But in the opposite direction
             *    *    *    *    *        *      *    
            ***  ***  ***  ***  ***      ***    ***  
             *    *    *    *    *        *      * 

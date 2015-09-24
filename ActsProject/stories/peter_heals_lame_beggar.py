@@ -1,6 +1,6 @@
 ﻿from art import Terminal
 
-__name__ = "peter heals a lame beggar"
+name = "peter heals a lame beggar"
 
 def go():
 
