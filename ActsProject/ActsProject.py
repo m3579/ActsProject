@@ -25,6 +25,8 @@ Welcome to Mihir Kasmalkar's Acts Project!
 This program contains animations in the terminal for various stories
 in the Book of Acts.
 
+Please excuse the bad jokes.
+
 Here is a list of all of the stories:
 
     Jesus Ascends
