@@ -637,4 +637,6 @@ def go():
 
         """,
         speech_delay - 0.5
-        )                                                                                            
+        )                                                   
+    
+    t.finish(t.lineCount)                                         
