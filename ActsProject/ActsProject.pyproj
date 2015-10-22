@@ -30,6 +30,9 @@
     <Compile Include="stories\ananias_and_saphira.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="stories\choosing_of_seven.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="stories\holy_spirit_comes.py" />
     <Compile Include="stories\jesus_ascends.py" />
     <Compile Include="stories\peter_heals_lame_beggar.py">
