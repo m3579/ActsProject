@@ -4,6 +4,7 @@ from stories import peter_heals_lame_beggar
 from stories import peter_john_before_sanhedrin
 from stories import ananias_and_saphira
 from stories import choosing_of_seven
+from stories import stephen_siezed
 import sys
 
 storyList = [jesus_ascends,
@@ -11,7 +12,8 @@ storyList = [jesus_ascends,
              peter_heals_lame_beggar,
              peter_john_before_sanhedrin,
              ananias_and_saphira,
-             choosing_of_seven]
+             choosing_of_seven,
+             stephen_siezed]
 
 print()
 command = input("story> ").lower()
@@ -45,7 +47,10 @@ Here is a list of all of the stories:
     else:
         story = [story for story in storyList if story.name == command]
         if len(story) > 0:
-            story[0].go()
+            try:
+                story[0].go()
+            except SystemExit as se:
+                print("Sorry, there was an error: " + str(se))
         else:
             print("I cannot recognize this story")
 
