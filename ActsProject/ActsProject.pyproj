@@ -41,6 +41,9 @@
     <Compile Include="stories\peter_john_before_sanhedrin.py">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="stories\stephens_speech_to_sanhedrin.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="stories\stephen_siezed.py">
       <SubType>Code</SubType>
     </Compile>

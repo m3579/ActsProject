@@ -5,6 +5,8 @@ from stories import peter_john_before_sanhedrin
 from stories import ananias_and_saphira
 from stories import choosing_of_seven
 from stories import stephen_siezed
+from stories import stephens_speech_to_sanhedrin
+
 import sys
 
 storyList = [jesus_ascends,
@@ -13,7 +15,8 @@ storyList = [jesus_ascends,
              peter_john_before_sanhedrin,
              ananias_and_saphira,
              choosing_of_seven,
-             stephen_siezed]
+             stephen_siezed,
+             stephens_speech_to_sanhedrin]
 
 print()
 command = input("story> ").lower()
