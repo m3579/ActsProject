@@ -6,6 +6,7 @@ from stories import ananias_and_saphira
 from stories import choosing_of_seven
 from stories import stephen_siezed
 from stories import stephens_speech_to_sanhedrin
+from stories import simon_the_sorcerer
 
 import sys
 
@@ -16,14 +17,16 @@ storyList = [jesus_ascends,
              ananias_and_saphira,
              choosing_of_seven,
              stephen_siezed,
-             stephens_speech_to_sanhedrin]
+             stephens_speech_to_sanhedrin,
+             simon_the_sorcerer]
 
-print()
-command = input("story> ").lower()
+# Comment these out during debugging
+# print()
+# command = input("story> ").lower()
 
 # DEBUGGING
-# .go()
-# sys.exit(0)
+simon_the_sorcerer.go()
+sys.exit(0)
 
 while command != "":
    
