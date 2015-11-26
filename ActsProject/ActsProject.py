@@ -57,40 +57,6 @@ Here is a list of all of the stories:
         story = [story for story in storyList if story.name == command]
         if len(story) > 0:
             try:
-                t = art.Terminal()
-                
-                t.draw(
-                    """
-   
-        Warning: Some of the text in the following animation
-                may be directly from the Bible, but no references
-                are provided and it may not be made clear that it
-                is a Bible verse
-                               
-                    """,
-                    3
-                )
-
-                t.draw(
-                    """
-   
-        Warning: This is so that I do not have to interrupt the
-                story with the reference every time a Bible
-                verse is quoted
-                              
-                    """,
-                    3
-                )
-
-                t.draw(
-                    """
-   
-        Warning: I do not claim the Bible verses to be my
-                original work
-                    """,
-                    3
-                )
-
                 story[0].go()
             except SystemExit as se:
                 print("Sorry, there was an error: " + str(se))
