@@ -8,6 +8,7 @@ from stories import stephen_siezed
 from stories import stephens_speech_to_sanhedrin
 from stories import simon_the_sorcerer
 from stories import philip_and_ethiopian
+from stories import sauls_conversion
 
 import art
 import sys
@@ -21,7 +22,8 @@ storyList = [jesus_ascends,
              stephen_siezed,
              stephens_speech_to_sanhedrin,
              simon_the_sorcerer,
-             philip_and_ethiopian]
+             philip_and_ethiopian,
+             sauls_conversion]
 
 # Comment these out during debugging
 print()
