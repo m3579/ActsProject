@@ -17,6 +17,10 @@ def go():
 
     saul_falling_delay = 0.08
 
+    fall_down_delay = 0.1
+
+    scales_falling_delay = 0.2
+
     t.draw(
         """
     
@@ -1540,24 +1544,1032 @@ def go():
         
         The men traveling with Paul led him to Damascus 
         He did not eat for three days   
-        And then,
-
+        Meanwhile, in Damascus...
 
 
 
     
         """,
-        speech_delay - 1
+        speech_delay
+    )
+
+    # The rest of this animation was originally supposed to be a separate animation 
+    # with different delays. That's why the following delays are different:
+    move_delay = 0.07
+
+    #t.draw(
+    #    """
+
+
+    #    Saul's Conversion Part 2
+
+
+
+    #    """,
+    #    title_delay
+    #)
+
+    t.draw(
+        """
+        Ananias
+        
+           *
+         *   *    
+           *        
+     ** * * * * **
+     *  *     *  *
+     *  *     *  * 
+        * *** *
+         *   *
+         *   * 
+        **   **
+        """,
+        label_delay
+    )
+
+    t.draw(
+        """
+                             *
+                             *    *Vision*
+           *                 *
+         *   *               *     Ananias!
+           *                 *     
+     ** * * * * **            *             
+     *  *     *  *              * * * * * * *    
+     *  *     *  *     
+        * *** *
+         *   *
+         *   * 
+        **   **
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                             *
+                             *    *Vision*
+           *                 *
+         *   *               *     Ananias!
+           *                 *     
+     ** * * * * **            *             
+     *  *     *  * *            * * * * * * *    
+       **     *        
+        * *** *
+         *   *
+         *   * 
+        **   **
+        """,
+        fall_down_delay
+    )
+
+    t.draw(
+        """
+                             *
+                             *    *Vision*
+           *                 *
+         *   *               *     Ananias!
+           *                 *     
+     ** * * * * ** * *        *             
+       ** *   *                 * * * * * * *    
+        *     *        
+        * *** *
+         *   *
+         *   * 
+        **   **
+        """,
+        fall_down_delay
+    )
+
+    t.draw(
+        """
+                             *
+                             *    *Vision*
+                             *
+           *                 *     Ananias!
+         *   *               *     
+           *         *        *             
+      * * * * * ** *            * * * * * * *    
+      * *     *        
+        *     *
+        * *** * 
+          *    *
+        **   **
+        """,
+        fall_down_delay
+    )
+
+    t.draw(
+        """
+                             *
+                             *    *Vision*
+                             *
+           *                 *     Ananias!
+         * * *       *       *     
+        *  *       *          *             
+      * * * * * **              * * * * * * *    
+        *     *        
+        *     *
+        * *** * 
+          *    *
+        **   **
+        """,
+        fall_down_delay
+    )
+
+    t.draw(
+        """
+                             *
+       Yes, Lord!            *    *Vision*
+                             *
+           *                 *     Ananias!     
+         * * *       *       *     
+        *  *       *          *             
+      * * * * * **              * * * * * * *    
+        *     *        
+        *     *
+        * *** * 
+          *    *
+        **   **
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+                             *    
+                             *  Go to the house
+           *                 *  of Judah on
+         * * *       *       *  Straight Street
+        *  *       *          *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *              ============
+        * *** *             House |---| ||  
+          *    *             of   |   | || Straight St. 
+        **   **             Judah |___| ||
+        """,
+        speech_delay
+    )
+    
+    t.draw(
+        r"""
+                             *    *Vision*
+                             *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+         * * *       *       *  he is praying
+        *  *       *          *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                 0-
+        * *** *                o--\
+          *    *                  |    
+        **   **                  / \
+         
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+       But Lord              *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+         * * *      *        *  he is praying
+       *   *       *          *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+       But Lord              *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+         **  *     *         *  he is praying
+       *   *      *           *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+       But Lord              *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+        * *  *    *          *  he is praying
+       *   *      *           *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+       But Lord              *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+        * *  *  *            *  he is praying
+       *   *     *            *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+       But Lord              *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+        * *  * *             *  he is praying
+       *   *    *             *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    I have heard reports     *    *Vision*
+      about this man!        *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+       * *   *  *            *  he is praying
+       *   *    *             *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    I have heard reports     *    *Vision*
+      about this man!        *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+       * *   *  *            *  he is praying
+      *    *    *            *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    I have heard reports     *    *Vision*
+      about this man!        *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+     *   *   *    *          *  he is praying
+      *    *     *            *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    I have heard reports     *    *Vision*
+      about this man!        *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+     *   *   *    *          *  he is praying
+     *     *      *           *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    I have heard reports     *    *Vision*
+      about this man!        *    
+                             *  Ask for a man
+           *                 *  named Saul, for
+   *     *   *      *        *  he is praying
+     *     *      *           *             
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+                             *
+                             *     Go!
+           *                 *   This man is my
+   *     *   *      *        *   chosen instrument.
+     *     *      *           *
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+                             *    *Vision*
+                             *
+                             *   
+           *                 *   
+   *     *   *      *        *   
+     *     *      *           *
+      * * * * * **              * * * * * * *    
+        *     *                            
+        *     *                
+        * *** *                
+          *    *                     
+        **   **                  
+         
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+              
+        
+      *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+        *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+          *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+            *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+              *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+                *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+                  *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+                    *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+                      *                  
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+                                         
+      =============== * =====
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+                                         
+      =======================
+                   -- * --- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+              
+        
+                                         
+      =======================
+                   -------- ||
+                   |      | ||       
+                   |      | ||   
+                   |      | ||   
+                   -------- ||         
+                            ||     
+                            || 
+        
+                            
+                            
+        """,
+        move_delay
     )
 
     t.draw(
         """
     
-        
-        To be continued...
-        
+             *                         *
+           *   *                     *   *
+             *                         *
+      *** * * * * ***          ***  * * * * ***
+      *   *     *   *          *    *     *   *
+          *     *                   *     *
+          * *** *                   * *** *
+           *   *                     *   *
+           *   *                     *   *
+          **   **                   **   **
+        """,
+        move_delay
+    )
 
+    t.draw(
+        """
     
+             *                         *
+           *   *                     *   *
+             *                         *
+      *** * * * * ***          ***  * * * * ***
+      *   *     *   *          *    *     *   *
+          *     *                   *     *
+          * *** *                   * *** *
+           *   *                     *   *
+           *   *                     *   *
+          **   **                 **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                       *
+           *   *                   *   *
+             *                       *
+      *** * * * * ***        ***  * * * * ***
+      *   *     *   *        *    *     *   *
+          *     *                 *     *
+          * *** *                 * *** *
+           *   *                   *   *
+           *   *                   *   *
+          **   **                 **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                       *
+           *   *                   *   *
+             *                       *
+      *** * * * * ***        ***  * * * * ***
+      *   *     *   *        *    *     *   *
+          *     *                 *     *
+          * *** *                 * *** *
+           *   *                   *   *
+           *   *                   *   *
+          **   **               **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                     *
+           *   *                 *   *
+             *                     *
+      *** * * * * ***      ***  * * * * ***
+      *   *     *   *      *    *     *   *
+          *     *               *     *
+          * *** *               * *** *
+           *   *                 *   *
+           *   *                 *   *
+          **   **               **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                     *
+           *   *                 *   *
+             *                     *
+      *** * * * * ***      ***  * * * * ***
+      *   *     *   *      *    *     *   *
+          *     *               *     *
+          * *** *               * *** *
+           *   *                 *   *
+           *   *                 *   *
+          **   **             **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                   *
+           *   *               *   *
+             *                   *
+      *** * * * * ***    ***  * * * * ***
+      *   *     *   *    *    *     *   *
+          *     *             *     *
+          * *** *             * *** *
+           *   *               *   *
+           *   *               *   *
+          **   **             **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                   *
+           *   *               *   *
+             *                   *
+      *** * * * * ***    ***  * * * * ***
+      *   *     *   *    *    *     *   *
+          *     *             *     *
+          * *** *             * *** *
+           *   *               *   *
+           *   *               *   *
+          **   **           **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                 *
+           *   *             *   *
+             *                 *
+      *** * * * * ***  ***  * * * * ***
+      *   *     *   *  *    *     *   *
+          *     *           *     *
+          * *** *           * *** *
+           *   *             *   *
+           *   *             *   *
+          **   **           **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+          Paul              Ananias
+             *                 *
+           *   *             *   *
+             *                 *
+      *** * * * * ***  ***  * * * * ***
+      *   *     *   *  *    *     *   *
+          *     *           *     *
+          * *** *           * *** *
+           *   *             *   *
+           *   *             *   *
+          **   **           **   **
+        """,
+        label_delay
+    )
+
+    t.draw(
+        """
+    
+             *                 *
+           *   *             *   *
+             *                 *
+       ** * * * * **   ***  * * * * **
+       *  *     *  *  *     *     *  *
+       *  *     *  *        *     * *
+          * *** *           * *** *
+           *   *             *   *
+           *   *             *   *
+          **   **           **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                 *
+           *   *             *   *
+             *                 *
+       ** * * * * ** * ***  * * * * **
+       *  *     *  *        *   * *  *
+       *  *     *  *        *     *  
+          * *** *           * *** *
+           *   *             *   *
+           *   *             *   *
+          **   **           **   **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                 *
+           *   *             *   *
+             *                 *
+       ** * * * * ** * ***  *  * *
+       *  *     *  *      * **  * 
+       *  *     *  *        *   *  
+          * *** *           * * *
+           *   *             * *
+           *   *             * *
+          **   **           ** **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    
+             *                 *
+           *   *             *   *
+             *                 *
+       ** * * * * ** * ***  *  * *
+       *  *     *  *      * **  * 
+       *  *     *  *        *   *  
+          * *** *           * * *
+           *   *             * *
+           *   *             * *
+          **   **         ** **
+        """,
+        move_delay
+    )
+
+    t.draw(
+        """
+    Brother Saul, God sent me so that you would be filled
+             *               *
+           *   *           *   *
+             *               *
+       ** * * * * ** ***  *  * *
+       *  *     *  *    * **  * 
+       *  *     *  *      *   *  
+          * *** *         * * *
+           *   *           * *
+           *   *           * *
+          **   **         ** **
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+    with the Holy Spirit
+             *               *
+           *   *           *   *
+             *               *
+       ** * * * * ** ***  *  * *
+       *  *     *  *    * **  * 
+       *  *     *  *      *   *  
+          * *** *         * * *
+           *   *           * *
+           *   *           * *
+          **   **         ** **
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+    
+         *   *   *           *
+           *   *           *   *
+             *               *
+       ** * * * * ** ***  *  * *
+       *  *     *  *    * **  * 
+       *  *     *  *      *   *  
+          * *** *         * * *
+           *   *           * *
+           *   *           * *
+          **   **         ** **
+        """,
+        scales_falling_delay
+    )
+
+    t.draw(
+        """
+    
+             *               *
+       *   *   *    *      *   *
+             *               *
+       ** * * * * ** ***  *  * *
+       *  *     *  *    * **  * 
+       *  *     *  *      *   *  
+          * *** *         * * *
+           *   *           * *
+           *   *           * *
+          **   **         ** **
+        """,
+        scales_falling_delay
+    )
+
+    t.draw(
+        """
+    
+             *               *
+           *   *           *   *
+    *        *        *      *
+       ** * * * * ** ***  *  * *
+       *  *     *  *    * **  * 
+       *  *     *  *      *   *  
+          * *** *         * * *
+           *   *           * *
+           *   *           * *
+          **   **         ** **
+        """,
+        scales_falling_delay
+    )
+
+    t.draw(
+        """
+    
+             *               *
+           *   *           *   *
+             *               *
+ *     ** * * * * ** ***  *  * *
+       *  *     *  *    ****  * 
+       *  *     *  *      *   *  
+          * *** *         * * *
+           *   *           * *
+           *   *           * *
+          **   **         ** **
+        """,
+        scales_falling_delay
+    )
+
+    t.draw(
+        """
+         I can see again!
+             *               *
+           *   *           *   *
+             *               *
+       ** * * * * ** * *  *  * *
+       *  *     *  *    ****  * 
+       *  *     *  *      *   *  
+          * *** *         * * *
+           *   *           * *
+           *   *           * *
+          **   **         ** **
+        """,
+        speech_delay
+    )
+
+    t.draw(
+        """
+
+
+        Saul went and was baptized
+
+
+
+
+
+
+
+
         """,
         title_delay
     )
