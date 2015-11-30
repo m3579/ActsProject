@@ -61,4 +61,4 @@ class Terminal():
         self.reset(self.resetdelay, self.lineCount)
         self.finish(self.prevLineCount)
         print("Error (", self.frame, " : ", line, "): ", message, sep="")
-        sys.exit(1)
+        while True: pass

@@ -27,6 +27,9 @@
   <ItemGroup>
     <Compile Include="ActsProject.py" />
     <Compile Include="art.py" />
+    <Compile Include="stories\aeneus_and_dorcas.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="stories\ananias_and_saphira.py">
       <SubType>Code</SubType>
     </Compile>

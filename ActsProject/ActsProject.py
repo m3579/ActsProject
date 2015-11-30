@@ -9,21 +9,24 @@ from stories import stephens_speech_to_sanhedrin
 from stories import simon_the_sorcerer
 from stories import philip_and_ethiopian
 from stories import sauls_conversion
+from stories import aeneus_and_dorcas
 
 import art
 import sys
 
-storyList = [jesus_ascends,
-             holy_spirit_comes,
-             peter_heals_lame_beggar,
-             peter_john_before_sanhedrin,
-             ananias_and_saphira,
-             choosing_of_seven,
-             stephen_siezed,
-             stephens_speech_to_sanhedrin,
-             simon_the_sorcerer,
-             philip_and_ethiopian,
-             sauls_conversion]
+storyList = [jesus_ascends,                 # 1
+             holy_spirit_comes,             # 2
+             peter_heals_lame_beggar,       # 3
+             peter_john_before_sanhedrin,   # 4
+             ananias_and_saphira,           # 5
+             choosing_of_seven,             # 6
+             stephen_siezed,                # 7
+             stephens_speech_to_sanhedrin,  # 8
+             simon_the_sorcerer,            # 9
+             philip_and_ethiopian,          # 10
+             sauls_conversion,              # 11
+             aeneus_and_dorcas              # 12
+            ]
 
 # Comment these out during debugging
 print()
@@ -58,10 +61,7 @@ Here is a list of all of the stories:
     else:
         story = [story for story in storyList if story.name == command]
         if len(story) > 0:
-            try:
-                story[0].go()
-            except SystemExit as se:
-                print("Sorry, there was an error: " + str(se))
+            story[0].go()
         else:
             print("I cannot recognize this story")
 
