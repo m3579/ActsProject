@@ -1,6 +1,6 @@
-from art import Terminal
+﻿from art import Terminal
 
-name = "simom the sorcerer"
+name = "simon the sorcerer"
 
 def go():
     t = Terminal()
@@ -680,14 +680,14 @@ def go():
     
     t.draw(
         """
-                                      
-                                                         
+  Simon the Sorcerer                            
+         |                                               
          *        * *     * *    *     *     *
         ***       **      **    ***   ***   ***
          *        *       *      *     *     *
         * *      * *     * *    * *   * *   * *
         """,
-        fast_move_delay
+        label_delay
     )
 
     t.draw(
