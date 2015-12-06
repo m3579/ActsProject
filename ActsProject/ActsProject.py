@@ -31,12 +31,12 @@ storyList = [jesus_ascends,                 # 1
             ]
 
 # Comment these out during debugging
-#print()
-#command = input("story> ").lower()
+print()
+command = input("story> ").lower()
 
 # DEBUGGING
-peters_vision.go()
-sys.exit(0)
+# .go()
+# sys.exit(0)
 
 while command != "":
    
