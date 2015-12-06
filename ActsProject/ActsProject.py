@@ -10,6 +10,7 @@ from stories import simon_the_sorcerer
 from stories import philip_and_ethiopian
 from stories import sauls_conversion
 from stories import aeneus_and_dorcas
+from stories import peters_vision
 
 import art
 import sys
@@ -25,16 +26,17 @@ storyList = [jesus_ascends,                 # 1
              simon_the_sorcerer,            # 9
              philip_and_ethiopian,          # 10
              sauls_conversion,              # 11
-             aeneus_and_dorcas              # 12
+             aeneus_and_dorcas,             # 12
+             peters_vision                  # 13
             ]
 
 # Comment these out during debugging
-print()
-command = input("story> ").lower()
+#print()
+#command = input("story> ").lower()
 
 # DEBUGGING
-# .go()
-# sys.exit(0)
+peters_vision.go()
+sys.exit(0)
 
 while command != "":
    
