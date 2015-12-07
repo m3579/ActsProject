@@ -11,8 +11,9 @@ from stories import philip_and_ethiopian
 from stories import sauls_conversion
 from stories import aeneus_and_dorcas
 from stories import peters_vision
+from stories import peters_miraculous_escape
 
-import art
+# import art
 import sys
 
 storyList = [jesus_ascends,                 # 1
@@ -27,7 +28,8 @@ storyList = [jesus_ascends,                 # 1
              philip_and_ethiopian,          # 10
              sauls_conversion,              # 11
              aeneus_and_dorcas,             # 12
-             peters_vision                  # 13
+             peters_vision,                 # 13
+             peters_miraculous_escape       # 14   
             ]
 
 # Comment these out during debugging

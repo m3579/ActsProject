@@ -38,6 +38,9 @@
     </Compile>
     <Compile Include="stories\holy_spirit_comes.py" />
     <Compile Include="stories\jesus_ascends.py" />
+    <Compile Include="stories\peters_miraculous_escape.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="stories\peters_vision.py">
       <SubType>Code</SubType>
     </Compile>
