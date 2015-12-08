@@ -1,11 +1,11 @@
-from art import Terminal
+﻿from art import Terminal
 
 name = "ananias and saphira"
 
-def go():
+reference = "Acts 5:1-11"
 
-    t = Terminal()
-
+def go(t):
+    
     title_delay = 2
 
     label_delay = 1
@@ -589,7 +589,7 @@ def go():
     
     t.draw(
         """  
-                           Was THAT what you wanted to do?
+                           So you just wanted to scream "DIE"?
                                 
                                   *      *
                                  ***    ***

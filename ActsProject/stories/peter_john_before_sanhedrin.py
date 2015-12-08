@@ -2,10 +2,10 @@
 
 name = "peter and john before the sanhedrin"
 
-def go():
-    
-    t = Terminal()
+reference = "Acts 4:5-35"
 
+def go(t):
+    
     title_delay = 2
 
     label_delay = 1.5
@@ -440,7 +440,7 @@ def go():
 
     t.draw(
         """
-                And THAT is how you do trials people!
+                       And THAT is how you do trials!
                             
           *      *                    *      *
          ***    ***                  ***    ***
@@ -449,6 +449,18 @@ def go():
      
         """,
         speech_delay
+    )
+
+    t.draw(
+        """
+     
+     
+       Peter never actually said that...I think
+     
+     
+     
+        """,
+        title_delay    
     )
 
     t.draw(

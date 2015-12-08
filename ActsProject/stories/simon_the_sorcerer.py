@@ -2,9 +2,10 @@
 
 name = "simon the sorcerer"
 
-def go():
-    t = Terminal()
+reference = "Acts 8:9-24"
 
+def go(t):
+    
     title_delay = 2
 
     quick_title_delay = 1

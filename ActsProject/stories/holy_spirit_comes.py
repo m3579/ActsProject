@@ -2,9 +2,10 @@
 
 name = "the holy spirit comes"
 
-def go():
-    t = Terminal()
+reference = "Acts 2:1-41"
 
+def go(t):
+    
     speech_delay = 1.5
 
     wind_delay = 0.2

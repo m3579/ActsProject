@@ -13,7 +13,7 @@ from stories import aeneus_and_dorcas
 from stories import peters_vision
 from stories import peters_miraculous_escape
 
-# import art
+from art import Terminal
 import sys
 
 storyList = [jesus_ascends,                 # 1
@@ -65,7 +65,77 @@ Here is a list of all of the stories:
     else:
         story = [story for story in storyList if story.name == command]
         if len(story) > 0:
-            story[0].go()
+            t = Terminal()
+            t.draw(
+        """
+
+
+
+
+       
+        The verses in this animation were taken from
+        """ + story[0].reference + """
+
+
+
+
+
+        """,
+        3
+    )
+            t.draw(
+        r"""
+
+
+     
+           /\                              
+          /  \                            o   o        
+         /    \        $$$$     ------    
+        /      \       $        |         o   o
+       /        \      $$$$     |         o   o
+      /          \        $     |         o   o
+     /            \    $$$$     ------    o   o
+
+
+        """,
+        0.6
+    )
+            t.draw(
+        r"""
+
+
+     
+           /\                              
+          /  \                      !       
+         /    \        ------    =======     $$$$
+        /      \       |            !        $
+       /        \      |            !        $$$$
+      /          \     |            !           $
+     /            \    ------       !        $$$$
+
+
+        """,
+        0.6
+    )
+            t.draw(
+        r"""
+
+
+     
+                                   
+            
+     
+     
+     
+     
+     
+
+
+        """,
+        1
+    )
+
+            story[0].go(t)
         else:
             print("I cannot recognize this story")
 

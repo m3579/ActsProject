@@ -2,10 +2,10 @@
 
 name = "aeneus and dorcas"
 
-def go():
-    
-    t = Terminal()
+reference = "Acts 9:32-42"
 
+def go(t):
+    
     title_delay = 1
 
     label_delay = 1

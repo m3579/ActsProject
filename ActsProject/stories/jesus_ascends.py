@@ -2,9 +2,9 @@
 
 name = "jesus ascends"
 
-def go():
+reference = "Acts 1:1-10"
 
-    t = Terminal()
+def go(t):
 
     text_delay = 1
 

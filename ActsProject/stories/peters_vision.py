@@ -1,10 +1,11 @@
-from art import Terminal
+﻿from art import Terminal
 
 name = "peter's vision"
 
-def go():
-    t = Terminal()
+reference = "Acts 10"
 
+def go(t):
+    
     title_delay = 2
 
     label_delay = 1

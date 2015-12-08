@@ -2,9 +2,9 @@
 
 name = "peter heals a lame beggar"
 
-def go():
+reference = "Acts 3-4:4"
 
-    t = Terminal()
+def go(t):
 
     title_delay = 2
 

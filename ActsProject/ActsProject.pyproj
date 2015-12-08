@@ -71,9 +71,24 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="stories\" />
+    <Folder Include="Videos\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="TimeCard.rtf" />
+    <Content Include="Videos\aeneus_and_dorcas.mp4" />
+    <Content Include="Videos\ananias_and_saphira.mp4" />
+    <Content Include="Videos\choosing_of_seven.mp4" />
+    <Content Include="Videos\holy_spirit_comes.mp4" />
+    <Content Include="Videos\jesus_ascends.mp4" />
+    <Content Include="Videos\peters_miraculous_escape.mp4" />
+    <Content Include="Videos\peters_vision.mp4" />
+    <Content Include="Videos\peter_heals_lame_beggar.mp4" />
+    <Content Include="Videos\peter_john_before_sanhedrin.mp4" />
+    <Content Include="Videos\philip_and_ethiopian.mp4" />
+    <Content Include="Videos\sauls_conversion.mp4" />
+    <Content Include="Videos\simon_the_sorcerer.mp4" />
+    <Content Include="Videos\stephens_speech_to_sanhedrin.mp4" />
+    <Content Include="Videos\stephen_siezed.mp4" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,10 +1,11 @@
-from art import Terminal
+﻿from art import Terminal
 
 name = "peter's miraculous escape from prison"
 
-def go():
-    t = Terminal()
+reference = "Acts 12:1-19"
 
+def go(t):
+    
     title_delay = 2
 
     label_delay = 1

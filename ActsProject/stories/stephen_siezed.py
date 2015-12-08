@@ -1,10 +1,11 @@
-from art import Terminal
+﻿from art import Terminal
 
 name = "stephen siezed"
 
-def go():
-    t = Terminal()
+reference = "Acts 6:8-15"
 
+def go(t):
+    
     title_delay = 2
 
     speech_delay = 1.5

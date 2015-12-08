@@ -2,9 +2,10 @@
 
 name = "saul's conversion"
 
-def go():
-    t = Terminal()
+reference = "Acts 9:1-18"
 
+def go(t):
+    
     title_delay = 2
 
     label_delay = 1

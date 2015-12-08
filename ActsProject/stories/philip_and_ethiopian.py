@@ -1,10 +1,11 @@
-from art import Terminal
+﻿from art import Terminal
 
 name = "philip and the ethiopian"
 
-def go():
-    t = Terminal()
+reference = "Acts 8:26-39"
 
+def go(t):
+    
     title_delay = 2
 
     angel_descending_delay = 0.2

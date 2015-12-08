@@ -2,9 +2,10 @@
 
 name = "stephen's speech to the sanhedrin"
 
-def go():
-    t = Terminal()
+reference = "Acts 7"
 
+def go(t):
+    
     title_delay = 2
 
     speech_delay = 1.5
@@ -274,32 +275,6 @@ def go():
 
     t.draw(
         """
-          John!
-        
-            *             *       *       *
-           ***           ***     ***     ***
-            *             *       *       *
-           * *           * *     * *     * *
-            
-        """,
-        speech_delay - 0.5
-    )
-
-    t.draw(
-        """
-                                Sorry.
-        
-            *             *       *       *
-           ***           ***     ***     ***
-            *             *       *       *
-           * *           * *     * *     * *
-            
-        """,
-        speech_delay - 0.5
-    )
-
-    t.draw(
-        """
          Then God appeared to Moses on Mt. Sinia 
         
             *             *       *       *
@@ -456,32 +431,6 @@ def go():
 
     t.draw(
         """
-       ...especially you, John
-        
-            *             *       *       *
-           ***           ***     ***     ***
-            *             *       *       *
-           * *           * *     * *     * *
-            
-        """,
-        speech_delay
-    )
-
-    t.draw(
-        """
-                             Sorry again.
-        
-            *             *       *       *
-           ***           ***     ***     ***
-            *             *       *       *
-           * *           * *     * *     * *
-            
-        """,
-        speech_delay
-    )
-
-    t.draw(
-        """
            I still have something important to say
         
             *             *       *       *
@@ -532,19 +481,6 @@ def go():
         speech_delay
     )
 
-    t.draw(
-        """
-                         Go away! You too, John!
-
-            *             *       *       *
-           ***           ***     ***     ***
-            *             *       *       *
-           * *           * *     * *     * *
-            
-        """,
-        speech_delay
-    )
-    
     t.draw(
         """
         Solomon built a house for God. However, God lives in heaven and

@@ -1,10 +1,11 @@
-from art import Terminal
+﻿from art import Terminal
 
 name = "the choosing of the seven"
 
-def go():
-    t = Terminal()
+reference = "Acts 6:1-7"
 
+def go(t):
+    
     title_delay = 2
 
     label_delay = 1.5
